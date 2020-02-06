@@ -1,0 +1,177 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>background</title>
+        <style media="screen">
+            body{
+                background: paleturquoise;
+                color: rgba(red, green, blue, alpha);
+            }
+            @media only screen and (min-width: 600px){
+                body{
+                    background: hsl(hue, saturation, lightness);
+                    color: khaki;
+                }
+            }
+            @media only screen and (min-width: 768px){
+                body{
+                    background: linear-gradient();
+                    color: black;
+                }
+            }
+
+            *{
+                box-sizing: border-box;
+            }
+
+            [class*="col-"] {
+                padding: 15px; float: left;width: 100%;
+                }
+            
+            @media only screen  and (min-width: 600px) {
+                .col-s-1 {width: 8.33%;}
+                .col-s-2 {width: 16.66%;}
+                .col-s-3 {width: 25%;}
+                .col-s-4 {width: 33.33%;}
+                .col-s-5 {width: 41.66%;}
+                .col-s-6 {width: 50%;}
+                .col-s-7 {width: 58.33%;}
+                .col-s-8 {width: 66.66%;}
+                .col-s-9 {width: 75%;}
+                .col-s-10 {width: 83.33%;}
+                .col-s-11 {width: 91.66%;}
+                .col-s-12 {width: 100%;}
+            }
+
+            @media only screen and(min-width: 768px) {
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+            }
+
+
+            .image{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                margin: 0 auto;
+                border: 20px double darkgrey;
+            }
+            .container{
+                width: 80%;
+                margin: 0 auto;
+            }
+            .box{
+                text-align: center;
+            }
+            .wonderfulindonesia{
+                color: yellowgreen;
+            }
+            .header{
+                display: block;
+                background-image: url(indo.jpg);
+                padding: 15px;
+                margin: 0px;
+                text-align: center;
+                height: auto;
+                width: auto;
+            }
+
+            .nav{
+                display: block;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: yellowgreen;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: block;
+                color: slateblue;
+                text-align: center;
+                padding: 15px 17px;
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+    <body class="header">
+    <ul class="nav">
+        <li><a href="#C1">tempat wisata indonesia</a></li>
+        <li><a href="#C2">makanan khas indonesia </a></li>
+        <li><a href="#C3">tradisi asli indonesia</a></li>
+        <li style="float: right;"><a href="#">about</a></li>
+    </ul>      
+        <div class="container">
+            <h1 align="center" class="wonderfulindonesia">wonderful indonesia</h1 align="center">
+            
+                <br>
+            <h3>tempat wisata indonesia</h3>
+            <div class="box col-3 col-s-6" id="C1">
+                <img src="raja ampat.jpg" class="image">
+                <h2>raja ampat</h2>
+                <p>
+                    Kepulauan yang terletak di ujung timur Indonesia ini adalah surga kekayaan bawah laut terlengkap di bumi.
+                </p>
+            </br>
+                </h1>
+            </div>
+            <div class="box col-3 col-s-6">
+                <img src=" pulau komodo.jpg" class="image">
+                <h2>pulau komodo</h2>
+                <p>
+                    Pulau Komodo sendiri terdiri dari beberapa pulau dan perairan laut. Salah satu yang terkenal adalah Taman Nasional Loh Liang yang terletak di Pulau Rinca, Manggarai Barat, Labuan Bajo, Flores. 
+                </p>
+            </div>
+
+            <h3>makanan khas indonesia</h3>
+            <div class="box col-3 col-s-6" id="C2">
+                <img src="karee kameng.jpg" class="image">
+                <h2>karee kameng</h2>
+                <p>
+                    Karee kameng yaitu makanan tradisional khas Aceh. Makanan ini merupakan sajian paling favorit bagi warga Aceh. Karee kameng atau disebut juga dengan kari kambing ini merupakan lauk yang hampir selalu ada di kedai nasi atau dalam berbagai perhelatan
+                </p>
+            </div>
+            <div class="box col-3 col-s-6">
+                <img src="oseng mercon.jpg" class="image">
+                <h2>oseng mercon</h2>
+                <p>
+                    kuliner ini bukan sebuah petasan yang diolah menjadi masakan melainkan tumisan tetelan saging sapi dengan bumbu pedas.
+                    Biasanya tetelan ini juga disertai campuran koyor atau lemak daning sapi. Dari suapan pertama, rasa pedas dari oseng mercon ini bisa langsung meledak di mulut. Kelezatanya ini menjadi salah satu variasi kuliner yang ada di Yogyakarta.
+                </p>
+            </div>
+
+            <h3>tradisi asli indonesia</h3>
+            <div class="box col-3 col-s-6" id="C3">
+                <img src="kebo kebo an.jpg" class="image">
+                <h2>kebo kebo an</h2>
+                <p>
+                    Kebo-keboan digelar untuk memohon kesuburan sawah dan hasil panen yang melimpah. Tradisi ini dijalankan masyarakat Banyuwangi, khususnya Suku Osing. Setiap tahunnya, kamu bisa melihat Kebo-keboan di Desa Alasmalang dan Aliyan pada 10 Muharram atau Suro.
+                </p>
+            </div>
+            <div class="box col-3 col-s-6">
+                <img src="pasola.jpg" class="image">
+                <h2>pasola</h2>
+                <p>
+                    Pasola terus berkembang menjadi sebuah tradisi turun-temurun bagi masyarakat Kecamatan Wanokaka, Kabupaten Sumba Barat, Nusa Tenggara Timur. Acara ini merupakan sebuah permainan ketangkasan melempar lembing kayu sambil menunggang kuda.
+                    Pasola digelar dalam menyambut masa tanam. Zaman dahulu, mereka percaya bahwa dengan adanya kecelakaan saat acara berlangsung, hal ini menjadi pertanda baik bagi hasil pertanian. Hingga kini, mereka tetap bertarung saat Pasola guna menjaga tradisi leluhur
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
